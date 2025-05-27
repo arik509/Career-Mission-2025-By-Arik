@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background-image: linear-gradient(#E6E6FA,#B8E7FA);
+    background-image: linear-gradient(#E6E6FA, #B8E7FA);
     margin: 0px;
     padding: 0px;
 }
@@ -14,37 +14,38 @@ header {
     background-color: #FFFFFF60;
     align-items: center;
     /* padding: 24px auto; */
-    
-}
-
-#header-content{
-        display: flex;
-        justify-content: space-between;
-        padding: 20px 70px;
-        margin-left: 5px;
 
 }
 
-#logo h3{
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    margin-left: 5px;
+
+}
+
+#logo h3 {
     font-weight: bolder;
     font-size: 28px;
 }
 
-#logo span{
+#logo span {
     color: #FFA500;
 }
 
-.btn{
-    background-image: linear-gradient(90deg,#FFA500,#FFD447);
+.btn {
+    background-image: linear-gradient(90deg, #FFA500, #FFD447);
     gap: 10px;
     border-radius: 10px;
     font-size: 20px;
     border-style: none;
-    color: #0D1321;
+    color: #0D132190;
     margin-top: 20px;
     padding: 17px 24px;
     box-shadow: 0px 3px 3px gray;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -53,13 +54,13 @@ header {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-#banner{
+#banner {
     width: 87.5%;
     margin: 100px auto 100px auto;
     background-color: #FFFFFF60;
 }
 
-#banner{
+#banner {
     padding: 40px 60px;
     display: flex;
     flex-direction: column;
@@ -68,12 +69,53 @@ header {
     border-radius: 16px;
 }
 
-.banner-story{
+.banner-story {
     text-align: center;
     height: 50%;
 }
 
-.banner-image{
+.banner-image {
     height: 50%;
 }
 
+.blog {
+    width: 87.5%;
+    margin: 100px auto 100px auto;
+}
+
+.blog-heading {
+    text-align: center;
+    padding: 0px 80px;
+}
+
+.blog-heading h4 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.blog-heading p {
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.blog-card {
+    background-color: #FFFFFF60;
+    display: flex;
+    padding: 20px;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+    margin-top: 100px;
+}
+
+.blog-card-content h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D132190;
+}
+
+.blog-card-content p {
+    font-size: 12px;
+    color: #0D132170;
+}
