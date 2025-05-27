@@ -1,0 +1,225 @@
+.inspiration-video {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #0D132150;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 1025px){
+  .inspiration-video iframe {
+    width: 800px;
+    height: 450px;
+    border-radius: 16px;
+    border: none;
+  }
+}
+  /* Tablet */
+  @media screen and (max-width: 1024px) {
+    .inspiration-video iframe {
+      width: 640px;
+      height: 360px;
+    }
+
+    #header-content {
+        padding: 15px 40px;
+      }
+    
+      #logo h3 {
+        font-size: 22px;
+      }
+
+      .blog-card-content{
+        text-align: center;
+      }
+
+      #button .btn {
+        padding: 8px 18px;
+        font-size: 15px;
+        text-align: center;
+      }
+      .inspiration-heading h4 {
+        font-size: 28px;
+      }
+    
+      .inspiration-heading p {
+        font-size: 15px;
+      }
+      .blog-heading {
+        padding: 0px 40px;
+      }
+    
+      .blog-heading h4 {
+        font-size: 28px;
+      }
+    
+      .blog-heading p {
+        font-size: 15px;
+      }
+    
+      .blog-card {
+        flex-direction: column-reverse;
+        gap: 24px;
+        padding: 20px;
+      }
+    
+      .blog-card-content h5 {
+        font-size: 20px;
+      }
+    
+      .blog-card-content p {
+        font-size: 12px;
+      }
+    
+      .blog-card-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
+
+      .target-heading {
+        padding: 0px 40px;
+      }
+    
+      .target-heading h4 {
+        font-size: 28px;
+      }
+    
+      .target-heading p {
+        font-size: 15px;
+      }
+    
+      .target-card-container {
+        justify-content: center;
+        gap: 32px;
+      }
+
+      #footer-container {
+        padding: 32px 60px;
+      }
+    
+      .footer-text p {
+        font-size: 18px;
+      }
+    
+      .footer-logos {
+        gap: 30px;
+      }
+    }
+  
+  /* Mobile */
+  @media screen and (max-width: 640px) {
+    .inspiration-video {
+      padding: 20px 10px;
+    }
+  
+    .inspiration-video iframe {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+    #header-content {
+        align-items: center;
+        padding: 15px 20px;
+        gap: 10px;
+      }
+    
+      #logo h3 {
+        font-size: 20px;
+        text-align: center;
+      }
+    
+      #button .btn {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+      }
+      .inspiration-heading h4 {
+        font-size: 24px;
+      }
+    
+      .inspiration-heading p {
+        font-size: 14px;
+      }
+      .blog-heading {
+        padding: 0px 20px;
+      }
+    
+      .blog-heading h4 {
+        font-size: 24px;
+      }
+    
+      .blog-heading p {
+        font-size: 14px;
+      }
+    
+      .blog-card {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 15px;
+        border-radius: 24px;
+      }
+    
+      .blog-card-content h5 {
+        font-size: 18px;
+      }
+    
+      .blog-card-content p {
+        font-size: 12px;
+      }
+    
+      .blog-card-image img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+      }
+      .target-heading {
+        padding: 0px 20px;
+      }
+    
+      .target-heading h4 {
+        font-size: 24px;
+      }
+    
+      .target-heading p {
+        font-size: 14px;
+      }
+    
+      .target-card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    
+      .card {
+        width: 90%;
+        padding: 30px;
+      }
+      #footer-container {
+        padding: 24px 20px;
+      }
+    
+      .footer-content {
+        flex-direction: column;
+        gap: 20px;
+      }
+    
+      .footer-text p {
+        font-size: 16px;
+        text-align: center;
+      }
+    
+      .footer-logos {
+        justify-content: center;
+        gap: 24px;
+      }
+    
+      .footer-logos img {
+        width: 28px;
+        height: 28px;
+      }
+  }
+  

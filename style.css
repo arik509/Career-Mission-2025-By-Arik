@@ -14,7 +14,8 @@ header {
     background-color: #FFFFFF60;
     align-items: center;
     /* padding: 24px auto; */
-
+    width: 100%;
+    background-size: cover;
 }
 
 #header-content {
@@ -22,7 +23,9 @@ header {
     justify-content: space-between;
     padding: 20px 70px;
     margin-left: 5px;
-
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 #logo h3 {
@@ -139,13 +142,14 @@ header {
 }
 
 .inspiration-video {
-    margin-top: 50px;
+    margin: 50px auto;
     text-align: center;
     overflow: hidden;
     border-radius: 16px;
     border: 1px solid;
     border-color: #0D132150;
-    padding: 20px 0px 20px 0px;
+    padding: 20px;
+    width: fit-content;
 }
 
 .inspiration-video iframe {
