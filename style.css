@@ -119,3 +119,35 @@ header {
     font-size: 12px;
     color: #0D132170;
 }
+
+#inspiration-container {
+    margin: 0px 200px 100px 200px;
+}
+
+.inspiration-heading h4 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+}
+
+.inspiration-heading p {
+    font-size: 16px;
+    font-family: "Azeret Mono";
+    text-align: center;
+    color: #0D132190;
+}
+
+.inspiration-video {
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #0D132150;
+    padding: 20px 0px 20px 0px;
+}
+
+inspiration-video iframe {
+    border-radius: 24px;
+}
