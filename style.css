@@ -169,7 +169,7 @@ header {
 
 .target-heading p {
     font-size: 16px;
-    color: #0D1321;
+    color: #0D132180;
 }
 
 .target-card-container {
@@ -193,6 +193,7 @@ header {
 }
 
 #footer-container{
+    margin-top: 200px;
     background-color: #FFFFFF80;
     padding: 32px 150px;
 }
